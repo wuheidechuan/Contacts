@@ -37,7 +37,6 @@
 	ABRecordRef grouprec = ABGroupCreate();
 	id group = [ABGroup groupWithRecord:grouprec];
 	CFRelease(grouprec);
-    NSLog(@"in group ");
 	return group;
 }
 
