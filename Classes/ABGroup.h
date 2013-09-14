@@ -11,6 +11,8 @@
 @interface ABGroup : NSObject 
 {
 	ABRecordRef record;
+    
+    
 }
 
 + (id) group;
