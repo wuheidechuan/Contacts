@@ -28,6 +28,7 @@
 	ABGroup *group = [self groupWithRecord:grouprec];
 	CFRelease(grouprec);
 	return group;
+    
 }
 
 // Thanks to Ciaran
@@ -36,6 +37,7 @@
 	ABRecordRef grouprec = ABGroupCreate();
 	id group = [ABGroup groupWithRecord:grouprec];
 	CFRelease(grouprec);
+    NSLog(@"in group ");
 	return group;
 }
 
